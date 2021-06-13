@@ -1,0 +1,345 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-13T09:49:47.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.hooks.webDriverInitialization()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Signing up to application",
+        "description": "",
+        "id": "signingup--register-to-application-and-verifing-message;signing-up-to-application;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.hooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9530000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "lanuch url",
+            "match": {
+              "location": "stepdefinition.stepdefination.lanuch_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on signup and signup page will populated",
+            "match": {
+              "location": "stepdefinition.stepdefination.click_on_signup_and_signup_page_will_populated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters a Firstname \"vv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vv\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_a_firstname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters a Lastname \"vv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vv\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_a_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a emali \"ytr@gamil.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ytr@gamil.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_a_emali(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a username \"eaw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eaw\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_a_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters a password \"yessss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yessss\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_a_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user re-enters a passwrod \"yessss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yessss\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_re_enters_a_passwrod(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3241000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on submit button",
+            "match": {
+              "location": "stepdefinition.stepdefination.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user registration is successful",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_registration_is_successful()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on profile drop down",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_click_on_profile_drop_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3063000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifies the email address \"ytr@gamil.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ytr@gamil.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_verifies_the_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1976000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on inbox icon",
+            "match": {
+              "location": "stepdefinition.stepdefination.click_on_inbox_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3026000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user will re-directed to Messages page",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_will_re_directed_to_messages_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5947000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on compose message icon",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_click_on_compose_message_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3382000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the recepient email address as \"div\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"div\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_the_recepient_email_address_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the subject text as \"Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Assignment\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enter_the_subject_text_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter the message as \"Assignment completed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Assignment completed",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinition.stepdefination.user_enters_the_message_body_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2117000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on the send message button",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_clicks_on_the_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user confimrs the acknowledgement",
+            "match": {
+              "location": "stepdefinition.stepdefination.user_confimrs_the_acknowledgement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signingup, register to application and verifing Message",
+    "description": "",
+    "id": "signingup--register-to-application-and-verifing-message",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/requirement.feature",
+    "tags": []
+  }
+]

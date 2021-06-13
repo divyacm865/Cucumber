@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.408">
+<testcase classname="Signingup, register to application and verifing Message" name="Signing up to application" time="41.943">
+<system-out><![CDATA[Given lanuch url............................................................passed
+When click on signup and signup page will populated.........................passed
+And user enters a Firstname "vv"............................................passed
+And user enters a Lastname "vv".............................................passed
+And user enters a emali "ytr@gamil.com".....................................passed
+And user enters a username "eaw"............................................passed
+And user enters a password "yessss".........................................passed
+And user re-enters a passwrod "yessss"......................................passed
+And click on submit button..................................................passed
+And user registration is successful.........................................passed
+Then user click on profile drop down........................................passed
+And User verifies the email address "ytr@gamil.com".........................passed
+Then click on inbox icon....................................................passed
+And user will re-directed to Messages page..................................passed
+And user click on compose message icon......................................passed
+Then user enters the recepient email address as "div".......................passed
+Then user enter the subject text as "Assignment"............................passed
+And user enter the message as "Assignment completed"........................passed
+And user clicks on the send message button..................................passed
+Then user confimrs the acknowledgement......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
